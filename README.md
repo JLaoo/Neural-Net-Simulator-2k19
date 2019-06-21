@@ -23,6 +23,8 @@ The app offers 6 different variables that a user can change:
 
 Running the app opens a new terminal window that begins to simulate training and exits upon completion. The app also has a force stop button.
 
+The GUI is located in the dist folder.
+
 # Remarks
 
 I felt like I needed to learn how to make GUIs at some point so here's my first attempt at one. Hopefully someone finds it useful lol.
