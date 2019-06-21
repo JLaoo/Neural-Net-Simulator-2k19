@@ -1,3 +1,5 @@
+Link to original repository: https://github.com/JLaoo/Neural-Net-Simulator-2k19
+
 # Neural Net Simulator 2k19
 A Fake Machine Learning Simulator with a GUI
 
@@ -23,7 +25,7 @@ The app offers 6 different variables that a user can change:
 
 Running the app opens a new terminal window that begins to simulate training and exits upon completion. The app also has a force stop button.
 
-The GUI is located in the dist folder.
+The GUI is located in the dist folder. You can also choose not to use the GUI by editing the SETTINGS.txt directly.
 # Images
 GUI:
 
