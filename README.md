@@ -27,6 +27,7 @@ The GUI is located in the dist folder.
 # Images
 GUI:
 ![GUI](https://i.imgur.com/3qR7bmU.png)
+
 Terminal:
 ![Terminal](https://i.imgur.com/g90Td9E.png)
 # Remarks
