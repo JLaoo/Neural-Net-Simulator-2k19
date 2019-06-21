@@ -31,6 +31,6 @@ GUI:
 
 Terminal:
 
-![Terminal](https://i.imgur.com/g90Td9E.png)
+![Terminal](https://i.imgur.com/DzqUozf.png)
 # Remarks
 I felt like I needed to learn how to make GUIs at some point so here's my first attempt at one. Hopefully someone finds it useful lol.
