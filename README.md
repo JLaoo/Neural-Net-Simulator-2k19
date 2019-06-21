@@ -5,11 +5,11 @@ A Fake Machine Learning Simulator with a GUI
 
 Ever wanted to seem like a ML master but have no idea what you're doing? This app is perfect for you!
 
-*"All my friends think I'm a CS god now!"* - Haas Snake
+*"All my friends think I'm a CS god now!"* - Haas snake
 
 *"Now my boss thinks I'm busy training my model while I'm actually just playing Hearthstone lmao"* - Bored CS boi
 
-*"Why did you make this?"* - confused friend
+*"Why did you make this?"* - Confused friend
 
 Use this app to fool your friends! Use this app to fool your boss! Woohoo!
 
