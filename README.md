@@ -26,9 +26,11 @@ Running the app opens a new terminal window that begins to simulate training and
 The GUI is located in the dist folder.
 # Images
 GUI:
+
 ![GUI](https://i.imgur.com/3qR7bmU.png)
 
 Terminal:
+
 ![Terminal](https://i.imgur.com/g90Td9E.png)
 # Remarks
 I felt like I needed to learn how to make GUIs at some point so here's my first attempt at one. Hopefully someone finds it useful lol.
