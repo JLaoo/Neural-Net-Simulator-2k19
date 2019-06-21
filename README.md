@@ -19,7 +19,8 @@ The app offers 6 different variables that a user can change:
 3) Number of Samples: Number of samples to take in each epoch.
 4) Average Training Time per Sample: The average training time for each sample in an epoch (in seconds).
 5) Training Time Variance: The variance in training times per sample.
-6) Number of Epochs: The number of epochs to simulate.
+6) Learning Speed: How fast the model learns
+7) Number of Epochs: The number of epochs to simulate.
 
 Running the app opens a new terminal window that begins to simulate training and exits upon completion. The app also has a force stop button.
 
