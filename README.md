@@ -40,4 +40,4 @@ I felt like I needed to learn how to make GUIs at some point so here's my first 
 # Todo
 
 - Make machine learning more realistic
-- As of right now, the app has only been tested on Ubuntu. It definitely does not work with OSX and needs to be patched.
+- As of right now, the app has only been tested on Ubuntu. It definitely does not work with OSX and has not been tested with Windows.
