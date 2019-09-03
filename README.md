@@ -25,7 +25,7 @@ The app offers 6 different variables that a user can change:
 
 Running the app opens a new terminal window that begins to simulate training and exits upon completion. The app also has a force stop button.
 
-The GUI is located in the dist folder. You can also choose not to use the GUI by editing the SETTINGS.txt directly.
+Run with gui.py
 # Images
 GUI:
 
@@ -40,4 +40,5 @@ I felt like I needed to learn how to make GUIs at some point so here's my first 
 # Todo
 
 - Make machine learning more realistic
-- As of right now, the app has only been tested on Ubuntu. It definitely does not work with OSX and has not been tested with Windows.
+- Test on Windows
+- Create a functioning one-click desktop app.
