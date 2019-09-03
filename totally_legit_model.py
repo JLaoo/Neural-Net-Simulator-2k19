@@ -2,11 +2,17 @@ import random
 import time
 import numpy as np
 import os
+import appscript
+import platform
 
 pid = os.getpid()
-
-with open('SETTINGS.txt', 'r') as f:
-	raw_settings = [line.strip() for line in f.readlines()]
+if platform.system() == 'Linux':
+	with open('SETTINGS.txt', 'r') as f:
+		raw_settings = [line.strip() for line in f.readlines()]
+elif platform.system() == 'Darwin':
+	cwd = os.path.dirname(os.path.realpath(__file__))
+	with open(cwd + '/SETTINGS.txt', 'r') as f:
+		raw_settings = [line.strip() for line in f.readlines()]
 settings = [s.split(': ')[1] for s in raw_settings]
 
 def visuals(current_epoch, epochs):

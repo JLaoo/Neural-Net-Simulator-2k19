@@ -14,6 +14,9 @@ import subprocess
 from subprocess import check_call
 import sys
 import os
+import platform
+if platform.system() == 'Darwin':
+	import appscript
 
 class gui(GridLayout):
 	initial_accuracy = StringProperty('Starting Accuracy: 50.0000')
@@ -108,7 +111,8 @@ class gui(GridLayout):
 		lst = [self.starting_accuracy.value, self.starting_loss.value, self.samples.value,
 				train_time, self.spinner.text, num_epochs, self.spinner2.text]
 		#Initialize Settings
-		with open('SETTINGS.txt', 'w') as outfile:
+		cwd = os.getcwd()
+		with open(cwd + '/SETTINGS.txt', 'w') as outfile:
 			outfile.write('STARTING ACCURACY: ' + str(lst[0]) + '\n')
 			outfile.write('STARTING LOSS: ' + str(lst[1]) + '\n')
 			outfile.write('NUM SAMPLES: ' + str(lst[2]) + '\n')
@@ -116,7 +120,10 @@ class gui(GridLayout):
 			outfile.write('TRAIN VARIANCE: ' + str(lst[4]) + '\n')
 			outfile.write('NUM EPOCHS: ' + str(lst[5]) + '\n')
 			outfile.write('LEARN SPEED: ' + str(lst[6]) + '\n')
-		subprocess.call(['gnome-terminal', '-x', 'python3', 'totally_legit_model.py'])
+		if platform.system() == 'Linux':
+			subprocess.call(['gnome-terminal', '-x', 'python3', 'totally_legit_model.py'])
+		elif platform.system() == 'Darwin':
+			appscript.app('Terminal').do_script('python3 ' + cwd + '/totally_legit_model.py')
 
 	def end_simulation(self, btn):
 		subprocess.call(['pkill', '-9', '-f', 'totally_legit_model.py'])
